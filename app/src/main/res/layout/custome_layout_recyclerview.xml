@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="20sp"
+    android:elevation="10sp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView_id_recycler"
+        android:layout_width="match_parent"
+        app:cardBackgroundColor="@color/secondary"
+        app:cardCornerRadius="15sp"
+        android:layout_height="200dp">
+
+
+
+        <ImageView
+            android:id="@+id/imageview_create_icon"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="?attr/create"
+            android:clickable="true"
+            android:theme="@style/Theme.PassWordManager"
+            android:focusable="true"
+            android:onClick="onClick"
+            android:layout_gravity="end"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            />
+
+        <TextView
+            android:id="@+id/main_account_id_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/biryani_bold"
+            android:padding="10sp"
+            android:text="Account Name "
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/basic"
+            android:padding="10sp"
+            android:text="Account Name: "
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/acc_card_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="70dp"
+            android:fontFamily="@font/bree_serif"
+            android:padding="10sp"
+            android:text="tabishnadeem50@gmail.com "
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/basic"
+            android:padding="10sp"
+            android:text="Password: "
+            android:textColor="@color/black"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/pass_card_id"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="120dp"
+            android:fontFamily="@font/bree_serif"
+            android:padding="10sp"
+            android:text="Sample "
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="220dp"
+        android:alpha="0.6"
+        android:background="@color/secondary"/>
+
+</FrameLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="create" format="reference"/>
+    
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxStrokeColor">@drawable/inputtext_stroke_color</item>
+        <item name="boxStrokeWidth">1dp</item>
+<!--        <item name="android:textColor">#E53935</item>-->
+        <item name="android:textColorHint">@color/strokeColorUnfocused</item>
+        <item name="endIconTint">@color/strokeColorUnfocused</item>
+
+
+    </style>
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView" >
+        <!-- Text Size -->
+<!--        <item name="android:textSize">@dimen/textSizePrimary</item>-->
+<!--        <item name="android:textAlignment">center</item>-->
+        <!-- Query Text Color -->
+        <item name="android:textColorPrimary">@color/secondary</item>
+        <item name="android:textColorSecondary">@color/secondary</item>
+        <!-- Hint Color -->
+        <item name="android:textColorHint">@color/secondary</item>
+
+
+
+        <!-- Icon Color -->
+        <item name="android:tint">@color/secondary</item>
+    </style>
+</resources>

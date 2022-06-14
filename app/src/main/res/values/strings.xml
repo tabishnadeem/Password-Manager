@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">PassWord Manager</string>
+    <string name="login">Login</string>
+    <string name="email_id">Email ID</string>
+    <string name="password">Password</string>
+    <string name="new_member">New Member ?</string>
+    <string name="sign_up">Sign Up</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="name">Name</string>
+    <string name="account_name">Account Name</string>
+    <string name="generate_password">Generate Password</string>
+</resources>
